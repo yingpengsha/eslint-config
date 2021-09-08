@@ -1,0 +1,16 @@
+{
+  "name": "@yingpengsha/eslint-config-monorepo",
+  "private": "true",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Pengsha Ying <yingfusheng@foxmail.com>",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "release": "lerna publish --conventional-commits"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.2"
+  }
+}
